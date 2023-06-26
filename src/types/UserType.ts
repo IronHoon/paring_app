@@ -1,0 +1,21 @@
+export type UserType = {
+  id: number;
+  type: string;
+  uid: string;
+  email: string;
+  password: string;
+  wp_password: string;
+  name: string;
+  nickname: string;
+  avatar: string;
+  instagram: string;
+  gender_id: number;
+  body_type_id: number;
+  height_id: number;
+  birth: string;
+  accessToken: string;
+  allow_notification: number;
+  points: number;
+  created_at: string;
+  updated_at: string;
+};
